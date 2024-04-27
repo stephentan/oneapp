@@ -1,0 +1,22 @@
+
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('/fonts/helvetica.woff') format('woff'); /* Chrome 26+, Opera 23+, Firefox 39+ */
+
+}
+horizontalScroll::-webkit-scrollbar{
+  display: none;
+}
+.horizontalScroll {
+  -ms-overflow-style: none;
+}
+
+
